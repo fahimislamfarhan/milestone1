@@ -59,10 +59,7 @@ body{
 .header-image img{
     max-height: 585px;
 }
-/* Main Section Styles */
-.main-section{
-    /* margin-top: 100px; */
-}
+
 
 /* Counter styles section */
 .counter-section{
@@ -91,7 +88,7 @@ body{
 .counter-box h2{
     font-size: 40px;
 }
-.counter-box p{}
+
 /* Image gallery styles*/
 .gallery-section{
     width: 80%;
@@ -128,4 +125,116 @@ body{
     width: 90%;
     height: 299px;
     margin-top: 70px;
+}
+/* Our Support Section styles*/
+.our-support-section{
+    margin: 100px 0px;
+}
+.support-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.support-box{
+    padding: 40px;
+}
+
+
+/* Offer Section Styles */
+.offer-section{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    margin-top: 80px;
+}
+.offer-section-container{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+.offer-section-left{
+    width: 50%;
+}
+.offer-section-left h2, p{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.offer-section-left button{
+    display: block;
+    margin: 0 auto;
+}
+.text-color{
+    color: #E55473;
+}
+/* Instagram Section Styles */
+.instagram-section{
+    margin: 100px 0px;
+}
+.instagram-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.insta-img-gallery{
+    display: flex;
+    justify-content: space-around;
+}
+.insta-img-gallery img{
+    width: 25%;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+.insta-img-gallery img:hover{
+    opacity: 0.7;
+}
+/* Coupon Section Styles */
+.coupon-offer-section{
+    padding-bottom: 100px;
+}
+.coupon-container{
+    width: 80%;
+    margin: 0 auto;
+    background: url('../images/Rectangle 9.png');
+    padding-bottom: 100px;
+    padding-top: 100px;
+    border-radius: 8px;
+
+}
+.coupon-container p{
+    padding: 30px 0px 40px;
+}
+.coupon-container form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.coupon-container input{
+    border: none;
+    width: 600px;
+    height: 64px;
+    margin-right: 20px;
+    padding-left: 20px;
+    border-radius: 8px;
+}
+
+/* Footer Section Styles */
+.footer-section{
+    padding: 50px 0px;
+    background: #111010;
+    color: rgba(255, 255, 255, 0.90);
+}
+.footer-container{
+    width: 40%;
+    margin: 0 auto;
+}
+.footer-container h2{
+    color: white;
+    padding-bottom: 20px;
 }
